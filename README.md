@@ -8,7 +8,7 @@ View [Live Site](https://dev-dylann.github.io/pastacita/build)
 
 ## Screenshot
 
-![](./build/assets/img/screnshot.jpg)
+![Screenshot](build/assets/img/screenshot.png)
 
 ## Built With
 
