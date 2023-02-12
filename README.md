@@ -17,3 +17,4 @@ View [Live Site](https://dev-dylann.github.io/pastacita/build)
 - Javascript
 - Fonts from [Google Fonts](https://fonts.google.com)
 - [Animate On Scroll](https://https://michalsnik.github.io/aos/) - Animation Library
+- Stock Photos from [Pexels](https://pexels.com)
