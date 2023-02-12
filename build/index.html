@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pastacita</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="assets/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="js/main.js"></script>
+  </head>
+  <body class="mx-auto min-h-screen overflow-x-hidden bg-whitesmoke font-sans">
+    <header
+      id="header"
+      class="fixed top-0 z-[99] flex h-[200px] w-full items-end justify-center gap-3 p-3 sm:h-[250px] sm:flex-col sm:items-center sm:justify-end lg:h-fit lg:flex-row lg:justify-between lg:px-8 xl:px-16"
+    >
+      <h1
+        id="header__logo"
+        class="text-shadow font-cursive text-6xl font-bold text-accent-light sm:text-7xl sm:font-extrabold lg:text-6xl"
+      >
+        <a href="#">Pastacita</a>
+      </h1>
+
+      <nav
+        id="main-nav"
+        class="hidden text-xl font-medium text-whitesmoke sm:flex sm:flex-nowrap sm:justify-between sm:gap-4 md:gap-6 md:text-2xl lg:text-white"
+        aria-label="main-nav"
+      >
+        <a
+          href=""
+          class="underline decoration-accent decoration-solid decoration-2 underline-offset-8"
+          >Menu</a
+        >
+        <a
+          href="#about"
+          class="underline decoration-accent decoration-solid decoration-2 underline-offset-8"
+          >About</a
+        >
+        <a
+          href="#popular"
+          class="underline decoration-accent decoration-solid decoration-2 underline-offset-8"
+          >Popular</a
+        >
+        <a
+          href="#contact"
+          class="underline decoration-accent decoration-solid decoration-2 underline-offset-8"
+          >Contact</a
+        >
+      </nav>
+
+      <button
+        id="mobile-nav-btn"
+        class="fixed top-5 right-5 text-3xl text-whitesmoke sm:hidden"
+      >
+        &#9776;
+      </button>
+
+      <nav
+        id="mobile-nav"
+        class="fixed top-0 right-0 z-50 flex h-full w-10/12 max-w-sm translate-x-full flex-col items-center justify-center gap-3 bg-whitesmoke font-medium transition-all duration-500 sm:hidden"
+        aria-label="mobile-nav"
+      >
+        <div class="absolute top-5 right-5 text-5xl">&times;</div>
+        <a href="#" class="p-3 text-xl">Home</a>
+        <a href="" class="p-3 text-xl">Menu</a>
+        <a href="#about" class="p-3 text-xl">About</a>
+        <a href="#popular" class="p-3 text-xl">Popular</a>
+        <a href="#contact" class="p-3 text-xl">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section
+        id="hero"
+        class="relative flex min-h-screen flex-col justify-end gap-4 bg-[url(../assets/img/mobile\_landing.jpg)] bg-cover bg-center bg-no-repeat p-3 pb-12 sm:items-center sm:bg-[url(../assets/img/tablet-landing.jpg)] sm:px-5 lg:items-start lg:justify-center lg:bg-[url(../assets/img/desktop\_landing.jpg)] lg:px-20 lg:py-12 xl:px-32"
+      >
+        <div
+          class="mobile-gradient lg:desktop-gradient absolute top-0 left-0 h-screen w-full"
+        ></div>
+
+        <h2
+          class="text-shadow z-10 w-10/12 text-4xl font-bold text-accent-light sm:text-center md:text-5xl lg:max-w-xl lg:text-left lg:text-6xl xl:text-7xl"
+        >
+          Experience Pasta Like Never Before...
+        </h2>
+        <p class="z-10 text-whitesmoke sm:max-w-lg sm:text-center lg:text-left">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi laborum
+          minus ipsam ab est libero, cupiditate assumenda expedita fuga alias.
+        </p>
+
+        <button
+          class="z-10 my-3 w-full rounded-full bg-accent p-3 text-xl font-medium text-whitesmoke sm:w-1/2 sm:max-w-md"
+        >
+          Order Now
+        </button>
+      </section>
+
+      <section id="about" class="min-h-screen py-12 lg:py-12">
+        <!-- <h2
+          class="my-6 text-center text-3xl font-bold underline decoration-accent decoration-solid decoration-2 underline-offset-4"
+        >
+          About Us
+        </h2> -->
+        <article
+          class="flex flex-col-reverse gap-8 overflow-hidden px-3 py-12 sm:px-6 md:grid md:grid-cols-2 lg:grid-cols-5 lg:px-20 xl:px-32"
+        >
+          <img
+            data-aos="fade-right"
+            loading="lazy"
+            src="assets/img/dishes.jpg"
+            alt="Pasta Dishes"
+            class="mx-2 lg:col-span-2"
+          />
+
+          <div
+            data-aos="fade-up"
+            class="flex h-full flex-col gap-4 pb-4 lg:col-span-3"
+          >
+            <h2 class="text-3xl font-bold lg:text-5xl">
+              7-star Pasta Dishes...
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+              temporibus cum minima facilis excepturi doloribus commodi
+              voluptates repellat a modi tempora molestias incidunt, consequatur
+              aperiam aliquam itaque voluptatum laboriosam maxime veniam totam
+              nam voluptatem quas! Itaque perspiciatis molestiae, repellendus
+              facere nobis unde aliquam explicabo voluptatibus autem, eveniet,
+              saepe quidem error?Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Numquam sed provident nam animi consequatur,
+              nemo veritatis, corporis, accusantium doloribus perferendis ipsa?
+              Nemo ut omnis mollitia excepturi! Fugiat esse ut magni.
+            </p>
+            <a
+              href=""
+              class="my-6 w-1/2 self-center rounded-full bg-accent py-3 text-center text-lg font-bold text-whitesmoke md:self-start"
+              >See Menu</a
+            >
+          </div>
+        </article>
+
+        <article
+          class="flex flex-col gap-8 overflow-hidden bg-accent-light px-3 py-12 sm:px-6 md:grid md:grid-cols-2 lg:grid-cols-5 lg:px-20 xl:px-32"
+        >
+          <div data-aos="fade-up" class="flex flex-col gap-4 lg:col-span-3">
+            <h2 class="text-3xl font-bold lg:text-5xl">
+              ...Prepared By The Very Best Of Chefs...
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+              temporibus cum minima facilis excepturi doloribus commodi
+              voluptates repellat a modi tempora molestias incidunt, consequatur
+              aperiam aliquam itaque voluptatum laboriosam maxime veniam totam
+              nam voluptatem quas! Itaque perspiciatis molestiae, repellendus
+              facere nobis unde aliquam explicabo voluptatibus autem, eveniet,
+              saepe quidem error?Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Numquam sed provident nam animi consequatur,
+              nemo veritatis, corporis, accusantium doloribus perferendis ipsa?
+              Nemo ut omnis mollitia excepturi! Fugiat esse ut magni.
+            </p>
+          </div>
+
+          <img
+            data-aos="fade-left"
+            loading="lazy"
+            src="assets/img/chef.jpg"
+            alt="The Best Of Chefs"
+            class="mx-2 lg:col-span-2"
+          />
+        </article>
+      </section>
+
+      <section id="popular" class="min-h-screen scroll-mt-16 py-12 lg:py-12">
+        <h2 class="text-center text-3xl font-bold md:text-4xl">
+          Our Popular Dishes
+        </h2>
+        <article
+          class="flex flex-col items-center gap-8 overflow-hidden px-3 py-12 sm:px-6 md:flex-row md:flex-wrap md:justify-evenly lg:px-20 xl:px-32"
+        >
+          <div
+            data-aos="fade-up"
+            class="flex w-10/12 max-w-sm flex-col gap-4 rounded-md border bg-white p-3 shadow-md shadow-accent-light sm:max-w-md md:w-2/5 md:max-w-sm"
+          >
+            <img
+              src="assets/img/popular1.jpg"
+              alt="Some Fancy Name"
+              loading="lazy"
+              class="rounded-sm"
+            />
+            <div class="flex flex-col gap-2">
+              <h3 class="text-xl font-medium">Fancy Name</h3>
+              <p class="text-gray-700">$29.5</p>
+            </div>
+
+            <a
+              href=""
+              class="max-w-sm rounded-full bg-accent p-3 px-5 text-center font-bold text-whitesmoke"
+              >Order Now</a
+            >
+          </div>
+          <div
+            data-aos="fade-up"
+            class="flex w-10/12 max-w-sm flex-col gap-4 rounded-md border bg-white p-3 shadow-md shadow-accent-light sm:max-w-md md:w-2/5 md:max-w-sm"
+          >
+            <img
+              src="assets/img/popular5.jpg"
+              alt="Some Other Fancy Name"
+              loading="lazy"
+              class="rounded-sm"
+            />
+            <div class="flex flex-col gap-2">
+              <h3 class="text-xl font-medium">Fancy Name</h3>
+              <p class="text-gray-700">$29.5</p>
+            </div>
+
+            <a
+              href=""
+              class="max-w-sm rounded-full bg-accent p-3 px-5 text-center font-bold text-whitesmoke"
+              >Order Now</a
+            >
+          </div>
+          <div
+            data-aos="fade-up"
+            class="flex w-10/12 max-w-sm flex-col gap-4 rounded-md border bg-white p-3 shadow-md shadow-accent-light sm:max-w-md md:w-2/5 md:max-w-sm"
+          >
+            <img
+              src="assets/img/popular3.jpg"
+              alt="Another Fancy Name"
+              loading="lazy"
+              class="rounded-sm"
+            />
+            <div class="flex flex-col gap-2">
+              <h3 class="text-xl font-medium">Fancy Name</h3>
+              <p class="text-gray-700">$29.5</p>
+            </div>
+
+            <a
+              href=""
+              class="max-w-sm rounded-full bg-accent p-3 px-5 text-center font-bold text-whitesmoke"
+              >Order Now</a
+            >
+          </div>
+          <div
+            data-aos="fade-up"
+            class="flex w-10/12 max-w-sm flex-col gap-4 rounded-md border bg-white p-3 shadow-md shadow-accent-light sm:max-w-md md:w-2/5 md:max-w-sm"
+          >
+            <img
+              src="assets/img/popular6.jpg"
+              alt="Last Fancy Name"
+              loading="lazy"
+              class="rounded-sm"
+            />
+            <div class="flex flex-col gap-2">
+              <h3 class="text-xl font-medium">Fancy Name</h3>
+              <p class="text-gray-700">$29.5</p>
+            </div>
+
+            <a
+              href=""
+              class="max-w-sm rounded-full bg-accent p-3 px-5 text-center font-bold text-whitesmoke"
+              >Order Now</a
+            >
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <footer
+      class="flex w-full flex-col gap-6 bg-accent p-6 text-whitesmoke md:flex-row md:justify-evenly"
+    >
+      <article class="flex flex-col gap-3">
+        <h2 class="font-cursive text-5xl font-medium text-accent-light">
+          Pastacita
+        </h2>
+        <div class="flex flex-nowrap gap-3">
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-facebook"></i>
+        </div>
+
+        <address data-aos="fade-up" class="ml-3 md:text-sm">
+          No 72, Old Anthony Road,<br />
+          Allen Avenue, Ikeja,<br />
+          Lagos.
+          <br />
+          <br />
+          <a href="tel:+2348082716840">+234 808 271 6840</a>
+          <br />
+          <a href="mailto:support@pastacita.com">support@pastacita.com</a>
+        </address>
+      </article>
+
+      <article data-aos="fade-up" class="flex flex-col gap-3">
+        <h2 class="text-xl font-medium md:text-lg">SITEMAP</h2>
+        <nav
+          class="ml-3 flex flex-col gap-2 md:text-sm"
+          aria-label="footer-nav"
+        >
+          <a href="#">HOME</a>
+          <a href="">MENU</a>
+          <a href="#about">ABOUT</a>
+          <a href="#popular">POPULAR</a>
+        </nav>
+      </article>
+
+      <article data-aos="fade-up">
+        <h2 class="mb-3 text-xl font-medium md:text-lg">Leave Us A Message</h2>
+        <form action="" class="flex flex-col px-3 md:text-sm">
+          <label for="subject">Subject: </label>
+          <input
+            required
+            type="text"
+            id="subject"
+            class="bg=whitesmoke mb-3 rounded-md px-3 py-1"
+          />
+          <label for="message">Message: </label>
+          <textarea
+            required
+            name="message"
+            id="message"
+            class="bg=whitesmoke mb-3 rounded-md px-3 py-1"
+          ></textarea>
+
+          <button
+            class="w-1/2 rounded-full border-2 bg-accent p-1 font-medium md:text-sm"
+          >
+            Submit
+          </button>
+        </form>
+      </article>
+    </footer>
+    <script src="assets/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
