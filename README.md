@@ -11,4 +11,5 @@ View [Live Site](https://)
 - Semantic HTML5 Markup
 - [Tailwind](https://tailwindcss.com) - CSS Framework
 - Javascript
-- Fonts from [Google Fonts](https://)
+- Fonts from [Google Fonts](https://fonts.google.com)
+- [Animate On Scroll](https://https://michalsnik.github.io/aos/) - Animation Library
