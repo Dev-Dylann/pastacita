@@ -6,6 +6,10 @@ This is a landing page for an imaginary pasta restaurant called Pastacita. The p
 
 View [Live Site](https://dev-dylann.github.io/pastacita/build)
 
+## Screenshot
+
+![](assets/img/screnshot.jpg)
+
 ## Built With
 
 - Semantic HTML5 Markup
