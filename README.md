@@ -4,7 +4,7 @@
 
 This is a landing page for an imaginary pasta restaurant called Pastacita. The page features a hero section, a brief description of the restaurant, a section to showcase the restaurant's popular dishes and a footer.
 
-View [Live Site](https://)
+View [Live Site](https://dev-dylann.github.io/pastacita/)
 
 ## Built With
 
